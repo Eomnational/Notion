@@ -30,11 +30,11 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <header>
-          <h1>欢迎来到我的应用</h1>
+         
         </header>
         <main>{children}</main>
         <footer>
-          <p>&copy; 2024 我的应用</p>
+         
         </footer>
       </body>
     </html>
