@@ -14,8 +14,22 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "我的 Next.js 应用",
-  description: "这是一个基于 Next.js 的示例应用",
+  title: "Jotion",
+  description: "The connected wordspace where better, faster work happens.",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/logo.svg",
+        href: "/logo.svg",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/logo-dark.svg",
+        href: "/logo-dark.svg",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
